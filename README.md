@@ -4,6 +4,8 @@ Cliente nativo de menubar pra Fellow Aiden, escrito em SwiftUI. Consulte o estad
 
 Projeto independente, sem afiliação ou endosso da Fellow. A API móvel usada aqui é privada e pode mudar. A integração com uma conta e cafeteira reais ainda precisa de validação. Confira [compatibilidade](docs/compatibility.md) antes de enviar comandos.
 
+![Janela principal em demonstração](docs/screenshots/demo.png)
+
 ## Build local
 
 Você precisa de macOS 14 ou superior e Xcode com Swift 6. O projeto usa apenas frameworks da Apple, sem pacotes externos.
@@ -36,6 +38,6 @@ Para testar os estados sem conta, entre em demonstração e escolha um cenário 
 
 `AidenCore` reúne modelos, transporte HTTP e sessão. `FellowMac` contém SwiftUI, Keychain e demonstração. Testes usam transporte injetável e dados sintéticos.
 
-Leia o [contrato observado](docs/api-contract.md), a [pesquisa](docs/research/2026-10-13-aiden.md) e as [atribuições](THIRD_PARTY_NOTICES.md). A interface tem referências de composição de [Ilter Canberk](https://x.com/icanberk/status/2109031477484937571) e [YuriRDev](https://x.com/YuriRDev/status/2109343577583034661), com desenho próprio. Nenhum asset dessas referências foi incorporado.
+Leia o [contrato observado](docs/api-contract.md), a [pesquisa](docs/research/2026-10-13-aiden.md), o [registro de verificação](docs/verification.md) e as [atribuições](THIRD_PARTY_NOTICES.md). A interface tem referências de composição de [Ilter Canberk](https://x.com/icanberk/status/2109031477484937571) e [YuriRDev](https://x.com/YuriRDev/status/2109343577583034661), com desenho próprio. Nenhum asset dessas referências foi incorporado.
 
 Código sob [MIT](LICENSE), copyright 2026 Hugo Doria.

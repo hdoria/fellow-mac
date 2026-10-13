@@ -79,7 +79,7 @@ Status: aprovado e implementado em 2026-10-13. Build release e 48 testes aprovad
 - [x] Executar `swift test`, `swift build -c release` e `scripts/build-app.sh` com evidência guardada. Usar `DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer` quando necessário.
 - [ ] Verificador com contexto limpo testa artefato e rubrica: menubar, navegação, demonstração, exclusão de segredos, concorrência de sessão e ausência de disparos automáticos. Quem implementou não assina sozinho a verificação.
 - [x] Preparar README, licença, atribuições e CI, distinguindo compatibilidade declarada e efetivamente testada. Não anunciar macOS Intel ou macOS 14 como testados apenas por build no host arm64/macOS 27.
-- [ ] Inicializar Git e realizar commits convencionais por mudança lógica. Publicar o repositório somente após definir dono/nome e conferir que contém exclusivamente material publicável; push/main conforme regra global quando a entrega estiver aprovada.
+- [x] Inicializar Git e realizar commits convencionais por mudança lógica. Publicar o repositório somente após definir dono/nome e conferir que contém exclusivamente material publicável; push/main conforme regra global quando a entrega estiver aprovada.
 
 ## Resultado esperado e limites
 
@@ -92,3 +92,5 @@ Artefato local executável e testado, fonte publicável e mapa explícito de tes
 - Relógio, espera, transporte e serviço injetáveis permitem testar backoff, cancelamento, concorrência e respostas tardias sem conta real.
 - Vínculo do aparelho, validação de horário/dias/volume/fuso e corpo de agendamento foram testados. A execução em transições de horário de verão depende do firmware e não foi observada.
 - Nenhuma credencial real foi usada; login na Fellow e todas as operações no aparelho seguem pendentes de integração.
+
+Verificação visual independente concluiu os fluxos de demonstração, perfis, agendamentos e início simulado sem bloqueadores. Itens visuais ainda abertos dizem respeito ao acesso direto à menubar, ao ciclo de janelas e às plataformas não exercitadas. Veja o [registro completo](../../verification.md). Repositório público: [hdoria/fellow-mac](https://github.com/hdoria/fellow-mac), branch `main`.

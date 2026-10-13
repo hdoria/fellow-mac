@@ -18,6 +18,6 @@ Versão de firmware suficiente não comprova suporte ao comando. Pra testar Inst
 
 Verificação independente local: 48 testes aprovados, incluindo dois testes com entradas isoladas no Keychain. Os testes usam dados sintéticos e não comprovam integração com a nuvem real.
 
-A versão local usa assinatura ad-hoc. Developer ID, notarização, distribuição universal e validação em Intel ficam fora da prova desta versão. A CI declara os checks esperados; uma execução local não comprova que a CI remota passou.
+A versão local usa assinatura ad-hoc. Developer ID, notarização, distribuição universal e validação em Intel ficam fora da prova desta versão. A [primeira execução da CI](https://github.com/hdoria/fellow-mac/actions/runs/38399207787) passou em arm64/macOS 15 com Swift 6.1.2: testes e bundle release. Consulte o [registro de verificação](verification.md) para os fluxos observados e as pendências.
 
 Fontes de comportamento: [nota v2 do Home Assistant](https://github.com/kristofferR/FellowAiden-HomeAssistant/blob/de409f8df513a4ef72389e43f6bc5ffd1883bb75/docs/fellow-api-v2.md) e [README fixado](https://github.com/kristofferR/FellowAiden-HomeAssistant/blob/de409f8df513a4ef72389e43f6bc5ffd1883bb75/README.md). Essas observações não substituem teste no seu aparelho.
