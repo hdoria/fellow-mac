@@ -18,7 +18,7 @@ Referências de interface fornecidas pelo usuário: [Ilter Canberk](https://x.co
 | Tauri + cliente TypeScript | Reaproveitamento de ecossistema web | Integração adicional com macOS; cliente pesquisado ainda usa API anterior |
 | SwiftUI + processo Python | Reaproveitar biblioteca existente | Empacotar runtime, gerir processo e revisar licenças/dependências |
 
-Proposta: macOS 14 ou superior, Swift 6, SwiftUI, URLSession e Security.framework; zero dependências de produto inicialmente. Código próprio sob MIT como proposta; manter atribuição de pesquisa e não copiar implementações incompatíveis com a licença escolhida.
+Stack aprovada: macOS 14 ou superior, Swift 6, SwiftUI, URLSession e Security.framework; zero dependências de produto. Código próprio sob MIT, com atribuição de pesquisa e sem copiar implementações incompatíveis com a licença escolhida.
 
 ## Experiência
 
@@ -55,4 +55,4 @@ A rota existe no pacote Android, mas efeito físico não foi validado nesta sess
 - Login, seleção e leitura reais ficam marcados como não verificados até teste com a conta local do usuário. O mesmo vale individualmente para cada gravação.
 - Distribuição pública exige README, licença, atribuições, instruções de build, CI macOS e documentação do estado de compatibilidade. Assinatura/notarização exigem configuração própria e não fazem parte da prova local.
 
-Condição de parada da fase atual: pesquisa, proposta e plano revisados, com aprovação de escopo pendente antes de implementar autenticação e uma mudança superior a cinco arquivos/100 linhas. Condição de parada da implementação: build, testes e demonstração visual aprovados; integração física, se indisponível, é declarada como pendência e nunca como concluída.
+Pesquisa e plano aprovados em 2026-10-13, incluindo autenticação e escopo superior a cinco arquivos/100 linhas. Condição de parada da implementação: build, testes e demonstração visual aprovados, fonte publicada; integração física, se indisponível, é declarada como pendência e nunca como concluída.
